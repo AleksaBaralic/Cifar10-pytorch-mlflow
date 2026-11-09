@@ -1,0 +1,11 @@
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+mlflow
+optuna
+py7zr
+jupyter
+psutil
+pillow
