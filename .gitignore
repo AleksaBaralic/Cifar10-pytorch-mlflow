@@ -1,0 +1,16 @@
+# Okruzenje
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Podaci (preveliki za Git)
+data/*
+!data/.gitkeep
+
+# Tezine modela
+*.pt
+*.pth
+
+# Sistemski fajlovi
+Thumbs.db
