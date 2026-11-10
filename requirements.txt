@@ -9,3 +9,4 @@ py7zr
 jupyter
 psutil
 pillow
+pyyaml
