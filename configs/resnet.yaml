@@ -1,0 +1,12 @@
+name: resnet
+model: resnet
+model_params: {base: 32, n_blocks: 1}
+epochs: 10
+batch_size: 128
+lr: 0.001
+optimizer: adam
+weight_decay: 0.0
+scheduler: none
+augment: false
+n_folds: 5
+seed: 42
