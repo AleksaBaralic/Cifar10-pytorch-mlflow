@@ -14,3 +14,7 @@ data/*
 
 # Sistemski fajlovi
 Thumbs.db
+
+# Brzi testovi
+mlruns_quick/
+results/quick/
