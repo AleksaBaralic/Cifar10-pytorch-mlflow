@@ -1,0 +1,12 @@
+augment: false
+batch_size: 128
+epochs: 10
+lr: 0.001
+model: mlp
+model_params: {}
+n_folds: 5
+name: mlp
+optimizer: adam
+scheduler: none
+seed: 42
+weight_decay: 0.0

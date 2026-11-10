@@ -1,0 +1,9 @@
+artifact_location: file:///C:/Users/Aleksa/Cifar10-pytorch-mlflow/mlruns/774778590044909602
+creation_time: 1794328171239
+effective_trace_archival_retention: null
+experiment_id: '774778590044909602'
+last_update_time: 1794328171239
+lifecycle_stage: active
+name: cifar10
+trace_location: null
+workspace: default
