@@ -112,7 +112,7 @@ def make_optimizer(cfg, model):
 
 
 # ------------------------------------------------------------------- fold
-def run_fold(cfg, fold, X, y, tr_idx, va_idx, mean, std, device):
+def run_fold(cfg, fold, X, y, tr_idx, va_idx, mean, std, device, test_idx=None):
     set_seed(cfg["seed"] + fold)
     model = build_model(cfg["model"], **cfg["model_params"]).to(device)
     opt = make_optimizer(cfg, model)
@@ -180,6 +180,14 @@ def run_fold(cfg, fold, X, y, tr_idx, va_idx, mean, std, device):
         "peak_ram_mb": peak_ram / 1024 ** 2,
         "cpu_util_percent": cpu_util,
     })
+
+    if test_idx is not None:
+        t_logits = predict(model, X, test_idx, mean, std, device)
+        t_pred = t_logits.argmax(1).numpy()
+        t_true = y[test_idx].numpy()
+        metrics["test_accuracy"] = float((t_pred == t_true).mean())
+        metrics["test_macro_f1"] = float(f1_score(t_true, t_pred, average="macro"))
+    
     mlflow.log_metrics(metrics)
     cm = confusion_matrix(y_np, probs.argmax(1), labels=list(range(NUM_CLASSES)))
     info = {"n_params": count_parameters(model),
@@ -218,6 +226,7 @@ def main():
     set_seed(cfg["seed"])
     device = get_device()
     X, y, tv_idx, mean, std = load_data()
+    test_idx = np.setdiff1d(np.arange(len(y)), tv_idx)
     if args.quick:
         rng = np.random.default_rng(cfg["seed"])
         tv_idx = np.sort(rng.choice(tv_idx, 3000, replace=False))
@@ -250,7 +259,7 @@ def main():
             with mlflow.start_run(run_name=f"{name}_fold{fold}", nested=True):
                 metrics, hist, probs, cm, info = run_fold(
                     cfg, fold, X, y, tv_idx[tr_pos], tv_idx[va_pos],
-                    mean, std, device)
+                    mean, std, device, test_idx)
             oof_probs[va_pos] = probs
             oof_fold[va_pos] = fold
             fold_rows.append({"fold": fold, **metrics})
