@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/Aleksa/Cifar10-pytorch-mlflow/mlruns/774778590044909602/3456f898bd304bb5914edf317f1e0ee1/artifacts
+end_time: 1794612558756
+entry_point_name: ''
+experiment_id: '774778590044909602'
+lifecycle_stage: active
+run_id: 3456f898bd304bb5914edf317f1e0ee1
+run_name: mlp_tuned_fold5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1794612519526
+status: 3
+tags: []
+user_id: Aleksa
