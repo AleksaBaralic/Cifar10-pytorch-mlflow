@@ -1,0 +1,57 @@
+2026-11-14 00:31:24,319 Konfiguracija: {'model_params': {}, 'epochs': 10, 'batch_size': 64, 'lr': 0.0040596116104843075, 'optimizer': 'sgd', 'weight_decay': 0.0002801635158716264, 'scheduler': 'none', 'augment': False, 'n_folds': 5, 'seed': 42, 'name': 'cnn_tuned', 'model': 'cnn'} | uredjaj: cpu | slika za CV: 45000
+2026-11-14 00:31:42,171 fold 1 epoha  1/10 | train_loss 1.8386 | val_loss 1.5076 | val_acc 0.4439 | 13.5s
+2026-11-14 00:31:57,889 fold 1 epoha  2/10 | train_loss 1.3612 | val_loss 1.2610 | val_acc 0.5459 | 13.8s
+2026-11-14 00:32:13,468 fold 1 epoha  3/10 | train_loss 1.1446 | val_loss 1.1006 | val_acc 0.6112 | 13.7s
+2026-11-14 00:32:29,159 fold 1 epoha  4/10 | train_loss 0.9935 | val_loss 0.9949 | val_acc 0.6479 | 13.9s
+2026-11-14 00:32:45,156 fold 1 epoha  5/10 | train_loss 0.8706 | val_loss 0.9270 | val_acc 0.6729 | 14.2s
+2026-11-14 00:33:01,152 fold 1 epoha  6/10 | train_loss 0.7724 | val_loss 0.9024 | val_acc 0.6886 | 14.1s
+2026-11-14 00:33:16,918 fold 1 epoha  7/10 | train_loss 0.6795 | val_loss 0.8378 | val_acc 0.7129 | 13.9s
+2026-11-14 00:33:32,737 fold 1 epoha  8/10 | train_loss 0.5983 | val_loss 0.8212 | val_acc 0.7179 | 14.0s
+2026-11-14 00:33:48,816 fold 1 epoha  9/10 | train_loss 0.5241 | val_loss 0.8031 | val_acc 0.7269 | 14.2s
+2026-11-14 00:34:04,724 fold 1 epoha 10/10 | train_loss 0.4463 | val_loss 0.8498 | val_acc 0.7228 | 14.0s
+2026-11-14 00:34:07,662 FOLD 1 gotov: acc=0.7228, f1=0.7216, vreme=139.2s
+2026-11-14 00:34:23,516 fold 2 epoha  1/10 | train_loss 1.8483 | val_loss 1.5238 | val_acc 0.4481 | 13.9s
+2026-11-14 00:34:38,866 fold 2 epoha  2/10 | train_loss 1.3620 | val_loss 1.3553 | val_acc 0.5111 | 13.5s
+2026-11-14 00:34:54,488 fold 2 epoha  3/10 | train_loss 1.1431 | val_loss 1.0866 | val_acc 0.6106 | 13.7s
+2026-11-14 00:35:09,775 fold 2 epoha  4/10 | train_loss 0.9777 | val_loss 1.0442 | val_acc 0.6296 | 13.4s
+2026-11-14 00:35:25,291 fold 2 epoha  5/10 | train_loss 0.8567 | val_loss 0.9415 | val_acc 0.6619 | 13.6s
+2026-11-14 00:35:40,696 fold 2 epoha  6/10 | train_loss 0.7573 | val_loss 0.8622 | val_acc 0.7066 | 13.5s
+2026-11-14 00:35:56,301 fold 2 epoha  7/10 | train_loss 0.6698 | val_loss 0.8274 | val_acc 0.7156 | 13.7s
+2026-11-14 00:36:12,027 fold 2 epoha  8/10 | train_loss 0.5877 | val_loss 0.7961 | val_acc 0.7282 | 13.9s
+2026-11-14 00:36:27,854 fold 2 epoha  9/10 | train_loss 0.5123 | val_loss 0.8312 | val_acc 0.7289 | 14.0s
+2026-11-14 00:36:43,458 fold 2 epoha 10/10 | train_loss 0.4443 | val_loss 0.8599 | val_acc 0.7141 | 13.7s
+2026-11-14 00:36:46,412 FOLD 2 gotov: acc=0.7141, f1=0.7131, vreme=136.9s
+2026-11-14 00:37:01,960 fold 3 epoha  1/10 | train_loss 1.8313 | val_loss 1.4726 | val_acc 0.4690 | 13.6s
+2026-11-14 00:37:18,059 fold 3 epoha  2/10 | train_loss 1.3655 | val_loss 1.2141 | val_acc 0.5651 | 14.2s
+2026-11-14 00:37:33,863 fold 3 epoha  3/10 | train_loss 1.1426 | val_loss 1.0717 | val_acc 0.6219 | 13.9s
+2026-11-14 00:37:49,601 fold 3 epoha  4/10 | train_loss 0.9806 | val_loss 0.9829 | val_acc 0.6603 | 13.9s
+2026-11-14 00:38:05,385 fold 3 epoha  5/10 | train_loss 0.8564 | val_loss 0.9223 | val_acc 0.6790 | 13.9s
+2026-11-14 00:38:20,741 fold 3 epoha  6/10 | train_loss 0.7568 | val_loss 0.9042 | val_acc 0.6881 | 13.5s
+2026-11-14 00:38:36,420 fold 3 epoha  7/10 | train_loss 0.6702 | val_loss 0.8208 | val_acc 0.7159 | 13.8s
+2026-11-14 00:38:52,138 fold 3 epoha  8/10 | train_loss 0.5902 | val_loss 0.8451 | val_acc 0.7118 | 13.8s
+2026-11-14 00:39:09,374 fold 3 epoha  9/10 | train_loss 0.5171 | val_loss 0.8263 | val_acc 0.7266 | 15.1s
+2026-11-14 00:39:26,096 fold 3 epoha 10/10 | train_loss 0.4458 | val_loss 0.7916 | val_acc 0.7400 | 14.6s
+2026-11-14 00:39:29,083 FOLD 3 gotov: acc=0.7400, f1=0.7382, vreme=140.5s
+2026-11-14 00:39:45,093 fold 4 epoha  1/10 | train_loss 1.8341 | val_loss 1.4983 | val_acc 0.4519 | 14.0s
+2026-11-14 00:40:01,012 fold 4 epoha  2/10 | train_loss 1.3485 | val_loss 1.2481 | val_acc 0.5558 | 14.1s
+2026-11-14 00:40:17,169 fold 4 epoha  3/10 | train_loss 1.1274 | val_loss 1.1789 | val_acc 0.5830 | 14.3s
+2026-11-14 00:40:33,606 fold 4 epoha  4/10 | train_loss 0.9664 | val_loss 1.0265 | val_acc 0.6439 | 14.5s
+2026-11-14 00:40:50,020 fold 4 epoha  5/10 | train_loss 0.8479 | val_loss 0.9161 | val_acc 0.6803 | 14.5s
+2026-11-14 00:41:06,127 fold 4 epoha  6/10 | train_loss 0.7503 | val_loss 0.8609 | val_acc 0.7019 | 14.2s
+2026-11-14 00:41:22,449 fold 4 epoha  7/10 | train_loss 0.6639 | val_loss 0.8370 | val_acc 0.7119 | 14.5s
+2026-11-14 00:41:37,997 fold 4 epoha  8/10 | train_loss 0.5828 | val_loss 0.7935 | val_acc 0.7319 | 13.6s
+2026-11-14 00:41:54,519 fold 4 epoha  9/10 | train_loss 0.5108 | val_loss 0.8471 | val_acc 0.7183 | 14.7s
+2026-11-14 00:42:10,363 fold 4 epoha 10/10 | train_loss 0.4351 | val_loss 0.8579 | val_acc 0.7263 | 14.0s
+2026-11-14 00:42:13,361 FOLD 4 gotov: acc=0.7263, f1=0.7219, vreme=142.3s
+2026-11-14 00:42:29,141 fold 5 epoha  1/10 | train_loss 1.8554 | val_loss 1.5330 | val_acc 0.4519 | 13.8s
+2026-11-14 00:42:44,774 fold 5 epoha  2/10 | train_loss 1.3586 | val_loss 1.2262 | val_acc 0.5590 | 13.8s
+2026-11-14 00:43:00,724 fold 5 epoha  3/10 | train_loss 1.1327 | val_loss 1.1145 | val_acc 0.6062 | 14.1s
+2026-11-14 00:43:16,905 fold 5 epoha  4/10 | train_loss 0.9707 | val_loss 0.9621 | val_acc 0.6661 | 14.3s
+2026-11-14 00:43:32,950 fold 5 epoha  5/10 | train_loss 0.8571 | val_loss 0.9249 | val_acc 0.6848 | 14.1s
+2026-11-14 00:43:48,621 fold 5 epoha  6/10 | train_loss 0.7563 | val_loss 0.8319 | val_acc 0.7147 | 13.8s
+2026-11-14 00:44:04,176 fold 5 epoha  7/10 | train_loss 0.6714 | val_loss 0.7947 | val_acc 0.7297 | 13.7s
+2026-11-14 00:44:19,704 fold 5 epoha  8/10 | train_loss 0.5885 | val_loss 0.8227 | val_acc 0.7249 | 13.6s
+2026-11-14 00:44:35,483 fold 5 epoha  9/10 | train_loss 0.5122 | val_loss 0.7836 | val_acc 0.7378 | 13.9s
+2026-11-14 00:44:51,213 fold 5 epoha 10/10 | train_loss 0.4406 | val_loss 0.8644 | val_acc 0.7310 | 13.9s
+2026-11-14 00:44:54,204 FOLD 5 gotov: acc=0.7310, f1=0.7290, vreme=138.9s
+2026-11-14 00:44:54,452 GOTOVO. Accuracy: 0.7268 +/- 0.0096 | ukupno vreme treniranja: 697.8s
