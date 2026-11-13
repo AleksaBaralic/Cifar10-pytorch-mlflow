@@ -1,0 +1,14 @@
+model_params:
+  base: 32
+  n_blocks: 1
+epochs: 10
+batch_size: 128
+lr: 0.008691089486124966
+optimizer: adam
+weight_decay: 1.0476721102867552e-06
+scheduler: none
+augment: false
+n_folds: 5
+seed: 42
+name: resnet_tuned
+model: resnet
