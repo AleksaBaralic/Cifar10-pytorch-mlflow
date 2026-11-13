@@ -1,0 +1,11 @@
+{
+  "best_cv_accuracy": 0.7630666666666668,
+  "optimizer": "adam",
+  "lr": 0.008691089486124966,
+  "batch_size": 128,
+  "weight_decay": 1.0476721102867552e-06,
+  "model_params": {
+    "base": 32,
+    "n_blocks": 1
+  }
+}

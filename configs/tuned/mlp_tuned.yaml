@@ -1,0 +1,12 @@
+model_params: {}
+epochs: 10
+batch_size: 64
+lr: 0.00012564961929459122
+optimizer: adam
+weight_decay: 5.066888102569794e-05
+scheduler: none
+augment: false
+n_folds: 5
+seed: 42
+name: mlp_tuned
+model: mlp
