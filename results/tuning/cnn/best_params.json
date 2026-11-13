@@ -1,0 +1,8 @@
+{
+  "best_cv_accuracy": 0.7268444444444444,
+  "optimizer": "sgd",
+  "lr": 0.0040596116104843075,
+  "batch_size": 64,
+  "weight_decay": 0.0002801635158716264,
+  "model_params": {}
+}

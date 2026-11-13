@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/Aleksa/Cifar10-pytorch-mlflow/mlruns/882353979466825919/99d87a54bed24498b5b6a0076e727554/artifacts
+end_time: 1794571833983
+entry_point_name: ''
+experiment_id: '882353979466825919'
+lifecycle_stage: active
+run_id: 99d87a54bed24498b5b6a0076e727554
+run_name: cnn_trial5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1794571049562
+status: 3
+tags: []
+user_id: Aleksa

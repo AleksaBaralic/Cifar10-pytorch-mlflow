@@ -1,0 +1,12 @@
+model_params: {}
+epochs: 10
+batch_size: 64
+lr: 0.0040596116104843075
+optimizer: sgd
+weight_decay: 0.0002801635158716264
+scheduler: none
+augment: false
+n_folds: 5
+seed: 42
+name: cnn_tuned
+model: cnn
