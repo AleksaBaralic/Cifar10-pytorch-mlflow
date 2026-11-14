@@ -1,0 +1,13 @@
+augment: true
+batch_size: 64
+epochs: 10
+lr: 0.029106359131330698
+model: cnn_bn
+model_params:
+  dropout: 0.4464704583099741
+n_folds: 5
+name: cnn_bn_aug_tuned
+optimizer: sgd
+scheduler: none
+seed: 42
+weight_decay: 1.7073967431528114e-06
