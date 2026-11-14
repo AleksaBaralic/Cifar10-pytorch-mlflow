@@ -1,0 +1,18 @@
+{
+  "python": "3.12.7",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "processor": "AMD64 Family 25 Model 33 Stepping 2, AuthenticAMD",
+  "cpu_count": 12,
+  "cuda_available": false,
+  "git_commit": "e389ee9",
+  "packages": {
+    "torch": "2.15.0+cpu",
+    "torchvision": "0.29.2+cpu",
+    "numpy": "2.5.4",
+    "pandas": "3.1.1",
+    "scikit-learn": "1.9.1",
+    "mlflow": "3.18.0",
+    "optuna": "5.0.0",
+    "matplotlib": "3.11.2"
+  }
+}
